@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "declarationDir": "lib",
+    "sourceMap": true,
+    "declaration": true,
+    "importHelpers": true,
+    "strict": true,
+    "target": "es2018",
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM", "DOM.Iterable"],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "strictPropertyInitialization": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./components/*"],
+      "@/*": ["./components/*"]
+    },
+  },
+  "include": ["shims-vue.d.ts", "**/*.ts", "**/*.vue"]
+}

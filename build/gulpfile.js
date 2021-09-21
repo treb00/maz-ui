@@ -20,7 +20,6 @@ const onError = err => {
 // BUILD SUBTASKS
 // ---------------
 
-
 const compileComponentsSingleFileCss = () => {
   return src('./../packages/scss/components/*.scss')
     .pipe(sass.sync())

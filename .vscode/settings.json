@@ -4,7 +4,7 @@
   "javascript.format.enable": false,
   "eslint.alwaysShowStatus": true,
   "eslint.options": {
-    "extensions": [".html", ".js", ".vue", ".jsx"]
+    "extensions": [".html", ".js", ".ts", ".vue", ".jsx"]
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true

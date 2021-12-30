@@ -21,7 +21,6 @@ module.exports = {
   'maz-loader': './components/MazLoader/index.js',
   'maz-pagination': './components/MazPagination/index.js',
   'maz-picker': './components/MazPicker/index.js',
-  'maz-plotly': './components/MazPlotly/index.js',
   'maz-progress-bar': './components/MazProgressBar/index.js',
   'maz-phone-number-input': './components/MazPhoneNumberInput/index.js',
   'maz-radio': './components/MazRadio/index.js',

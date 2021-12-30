@@ -24,7 +24,6 @@ import MazListItem from './components/MazList/MazListItem/index.js'
 import MazLoader from './components/MazLoader/index.js'
 import MazPagination from './components/MazPagination/index.js'
 import MazPicker from './components/MazPicker/index.js'
-import MazPlotly from './components/MazPlotly/index.js'
 import MazProgressBar from './components/MazProgressBar/index.js'
 import MazPhoneNumberInput from './components/MazPhoneNumberInput/index.js'
 import MazRadio from './components/MazRadio/index.js'
@@ -66,7 +65,6 @@ const components = [
   MazLoader,
   MazPagination,
   MazPicker,
-  MazPlotly,
   MazProgressBar,
   MazPhoneNumberInput,
   MazRadio,
@@ -120,7 +118,6 @@ export default {
   MazLoader,
   MazPagination,
   MazPicker,
-  MazPlotly,
   MazProgressBar,
   MazPhoneNumberInput,
   MazRadio,
